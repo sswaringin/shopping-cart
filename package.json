@@ -1,0 +1,19 @@
+{
+  "name": "shopping-cart",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sswaringin/shopping-cart.git"
+  },
+  "author": "Stephen Swaringin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sswaringin/shopping-cart/issues"
+  },
+  "homepage": "https://github.com/sswaringin/shopping-cart#readme",
+  "description": ""
+}
