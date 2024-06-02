@@ -1,4 +1,4 @@
-module.exports = class ShoppingCart {
+export default class ShoppingCart {
   constructor(items = []) {
     this.__items = items;
   }

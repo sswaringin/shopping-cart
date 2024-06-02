@@ -1,12 +1,12 @@
-const assert = require('assert');
-const ShoppingCart = require('../index');
+import { expect } from 'chai';
+import ShoppingCart from '../index.js';
 
 describe('shopping cart', function() {
   describe('subtotal', function() {
     it('should be 0 if no items are passed in', function() {
       let shoppingCart = new ShoppingCart();
       let subtotal = shoppingCart.subtotal;
-      assert.equal(subtotal, 0);
+      expect(subtotal).to.equal(0);
     })
     it('should be the sum of items * price', function(){
       let shoppingCart = new ShoppingCart([
@@ -23,7 +23,7 @@ describe('shopping cart', function() {
       ]);
       let subtotal = shoppingCart.subtotal;
 
-      assert.equal(subtotal, 12);
+      expect(subtotal).to.equal(12);
     })
   })
 })
